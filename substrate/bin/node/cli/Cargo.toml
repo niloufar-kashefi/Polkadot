@@ -40,7 +40,7 @@ crate-type = ["cdylib", "rlib"]
 array-bytes = "6.1"
 clap = { version = "4.4.6", features = ["derive"], optional = true }
 codec = { package = "parity-scale-codec", version = "3.6.1" }
-serde = { version = "1.0.188", features = ["derive"] }
+serde = { version = "1.0.190", features = ["derive"] }
 jsonrpsee = { version = "0.16.2", features = ["server"] }
 futures = "0.3.21"
 log = "0.4.17"
@@ -108,7 +108,7 @@ sc-cli = { path = "../../../client/cli", optional = true}
 frame-benchmarking-cli = { path = "../../../utils/frame/benchmarking-cli", optional = true}
 node-inspect = { path = "../inspect", optional = true}
 try-runtime-cli = { path = "../../../utils/frame/try-runtime/cli", optional = true}
-serde_json = "1.0.107"
+serde_json = "1.0.108"
 
 [dev-dependencies]
 sc-keystore = { path = "../../../client/keystore" }
