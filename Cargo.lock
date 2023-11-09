@@ -2337,7 +2337,7 @@ name = "chain-spec-builder"
 version = "2.0.0"
 dependencies = [
  "ansi_term",
- "clap 4.4.6",
+ "clap 4.4.7",
  "node-cli",
  "rand 0.8.5",
  "sc-chain-spec",
@@ -2467,23 +2467,23 @@ dependencies = [
 
 [[package]]
 name = "clap"
-version = "4.4.6"
+version = "4.4.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d04704f56c2cde07f43e8e2c154b43f216dc5c92fc98ada720177362f953b956"
+checksum = "ac495e00dcec98c83465d5ad66c5c4fabd652fd6686e7c6269b117e729a6f17b"
 dependencies = [
  "clap_builder",
- "clap_derive 4.4.2",
+ "clap_derive 4.4.7",
 ]
 
 [[package]]
 name = "clap_builder"
-version = "4.4.6"
+version = "4.4.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0e231faeaca65ebd1ea3c737966bf858971cd38c3849107aa3ea7de90a804e45"
+checksum = "c77ed9a32a62e6ca27175d00d29d05ca32e396ea1eb5fb01d8256b669cec7663"
 dependencies = [
  "anstream",
  "anstyle",
- "clap_lex 0.5.1",
+ "clap_lex 0.6.0",
  "strsim",
 ]
 
@@ -2493,7 +2493,7 @@ version = "4.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "586a385f7ef2f8b4d86bddaa0c094794e7ccbfe5ffef1f434fe928143fc783a5"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
 ]
 
 [[package]]
@@ -2511,9 +2511,9 @@ dependencies = [
 
 [[package]]
 name = "clap_derive"
-version = "4.4.2"
+version = "4.4.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0862016ff20d69b84ef8247369fabf5c008a7417002411897d40ee1f4532b873"
+checksum = "cf9804afaaf59a91e75b022a30fb7229a7901f60c755489cc61c9b423b836442"
 dependencies = [
  "heck",
  "proc-macro2",
@@ -2532,9 +2532,9 @@ dependencies = [
 
 [[package]]
 name = "clap_lex"
-version = "0.5.1"
+version = "0.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cd7cc57abe963c6d3b9d8be5b06ba7c8957a930305ca90304f24ef040aa6f961"
+checksum = "702fc72eb24e5a1e48ce58027a675bc24edd52096d5397d4aea7c6dd9eca0bd1"
 
 [[package]]
 name = "coarsetime"
@@ -3065,7 +3065,7 @@ dependencies = [
  "anes",
  "cast",
  "ciborium",
- "clap 4.4.6",
+ "clap 4.4.7",
  "criterion-plot",
  "futures",
  "is-terminal",
@@ -3240,7 +3240,7 @@ dependencies = [
 name = "cumulus-client-cli"
 version = "0.1.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "parity-scale-codec",
  "sc-chain-spec",
  "sc-cli",
@@ -3925,7 +3925,7 @@ name = "cumulus-test-service"
 version = "0.1.0"
 dependencies = [
  "async-trait",
- "clap 4.4.6",
+ "clap 4.4.7",
  "criterion 0.5.1",
  "cumulus-client-cli",
  "cumulus-client-consensus-common",
@@ -5132,7 +5132,7 @@ dependencies = [
  "Inflector",
  "array-bytes 6.1.0",
  "chrono",
- "clap 4.4.6",
+ "clap 4.4.7",
  "comfy-table",
  "frame-benchmarking",
  "frame-support",
@@ -5224,7 +5224,7 @@ dependencies = [
 name = "frame-election-solution-type-fuzzer"
 version = "2.0.0-alpha.5"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "frame-election-provider-solution-type",
  "frame-election-provider-support",
  "frame-support",
@@ -8171,7 +8171,7 @@ name = "node-bench"
 version = "0.9.0-dev"
 dependencies = [
  "array-bytes 6.1.0",
- "clap 4.4.6",
+ "clap 4.4.7",
  "derive_more",
  "fs_extra",
  "futures",
@@ -8208,7 +8208,7 @@ version = "3.0.0-dev"
 dependencies = [
  "array-bytes 6.1.0",
  "assert_cmd",
- "clap 4.4.6",
+ "clap 4.4.7",
  "clap_complete",
  "criterion 0.4.0",
  "frame-benchmarking-cli",
@@ -8336,7 +8336,7 @@ dependencies = [
 name = "node-inspect"
 version = "0.9.0-dev"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "parity-scale-codec",
  "sc-cli",
  "sc-client-api",
@@ -8391,7 +8391,7 @@ dependencies = [
 name = "node-runtime-generate-bags"
 version = "3.0.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "generate-bags",
  "kitchensink-runtime",
 ]
@@ -8400,7 +8400,7 @@ dependencies = [
 name = "node-template"
 version = "4.0.0-dev"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "frame-benchmarking",
  "frame-benchmarking-cli",
  "frame-system",
@@ -8443,7 +8443,7 @@ dependencies = [
 name = "node-template-release"
 version = "3.0.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "flate2",
  "fs_extra",
  "glob",
@@ -10876,7 +10876,7 @@ dependencies = [
 name = "parachain-template-node"
 version = "0.1.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "color-print",
  "cumulus-client-cli",
  "cumulus-client-collator",
@@ -11613,7 +11613,7 @@ dependencies = [
 name = "polkadot-cli"
 version = "1.1.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "frame-benchmarking-cli",
  "futures",
  "log",
@@ -12435,7 +12435,7 @@ dependencies = [
  "bridge-hub-kusama-runtime",
  "bridge-hub-polkadot-runtime",
  "bridge-hub-rococo-runtime",
- "clap 4.4.6",
+ "clap 4.4.7",
  "collectives-polkadot-runtime",
  "color-print",
  "contracts-rococo-runtime",
@@ -12914,7 +12914,7 @@ version = "1.0.0"
 dependencies = [
  "assert_matches",
  "async-trait",
- "clap 4.4.6",
+ "clap 4.4.7",
  "color-eyre",
  "futures",
  "futures-timer",
@@ -13061,7 +13061,7 @@ dependencies = [
 name = "polkadot-voter-bags"
 version = "1.0.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "generate-bags",
  "sp-io",
  "westend-runtime",
@@ -13821,7 +13821,7 @@ checksum = "e5ea92a5b6195c6ef2a0295ea818b312502c6fc94dde986c5553242e18fd4ce2"
 name = "remote-ext-tests-bags-list"
 version = "1.0.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "frame-system",
  "log",
  "pallet-bags-list-remote-tests",
@@ -14534,7 +14534,7 @@ version = "0.10.0-dev"
 dependencies = [
  "array-bytes 6.1.0",
  "chrono",
- "clap 4.4.6",
+ "clap 4.4.7",
  "fdlimit",
  "futures",
  "futures-timer",
@@ -15667,7 +15667,7 @@ dependencies = [
 name = "sc-storage-monitor"
 version = "0.1.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "fs4",
  "log",
  "sc-client-db",
@@ -16112,18 +16112,18 @@ checksum = "f97841a747eef040fcd2e7b3b9a220a7205926e60488e673d9e4926d27772ce5"
 
 [[package]]
 name = "serde"
-version = "1.0.188"
+version = "1.0.192"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cf9e0fcba69a370eed61bcf2b728575f726b50b55cba78064753d708ddc7549e"
+checksum = "bca2a08484b285dcb282d0f67b26cadc0df8b19f8c12502c13d966bf9482f001"
 dependencies = [
  "serde_derive",
 ]
 
 [[package]]
 name = "serde_derive"
-version = "1.0.188"
+version = "1.0.192"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4eca7ac642d82aa35b60049a6eccb4be6be75e599bd2e9adb5f875a737654af2"
+checksum = "d6c7207fbec9faa48073f3e3074cbe553af6ea512d7c21ba46e434e70ea9fbc1"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -16141,9 +16141,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.107"
+version = "1.0.108"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6b420ce6e3d8bd882e9b243c6eed35dbc9a6110c9769e74b584e0d68d1f20c65"
+checksum = "3d1c7e3eac408d115102c4c24ad393e0821bb3a5df4d506a80f85f7a742a526b"
 dependencies = [
  "itoa",
  "ryu",
@@ -17219,7 +17219,7 @@ dependencies = [
 name = "sp-npos-elections-fuzzer"
 version = "2.0.0-alpha.5"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "honggfuzz",
  "rand 0.8.5",
  "sp-npos-elections",
@@ -17823,7 +17823,7 @@ dependencies = [
 name = "subkey"
 version = "3.0.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "sc-cli",
 ]
 
@@ -17884,7 +17884,7 @@ dependencies = [
 name = "substrate-frame-cli"
 version = "4.0.0-dev"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "frame-support",
  "frame-system",
  "sc-cli",
@@ -18349,7 +18349,7 @@ dependencies = [
 name = "test-parachain-adder-collator"
 version = "1.0.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "futures",
  "futures-timer",
  "log",
@@ -18397,7 +18397,7 @@ dependencies = [
 name = "test-parachain-undying-collator"
 version = "1.0.0"
 dependencies = [
- "clap 4.4.6",
+ "clap 4.4.7",
  "futures",
  "futures-timer",
  "log",
@@ -19043,7 +19043,7 @@ version = "0.10.0-dev"
 dependencies = [
  "assert_cmd",
  "async-trait",
- "clap 4.4.6",
+ "clap 4.4.7",
  "frame-remote-externalities",
  "frame-try-runtime",
  "hex",
